@@ -1,7 +1,8 @@
-Update: all
+schedule: 'every day'
+update: all
 Search: True
 Pin: True
-Default Branch: master
+Default Branch: main
 Branch pre-fix: pyup-
 Close PRs: True
 Label PRs: False
