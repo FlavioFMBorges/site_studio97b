@@ -104,11 +104,10 @@ VERSION = __import__(PACKAGE).__version__
 
 setup(
     name=NAME,
-    #version=VERSION,
-    version=0.1.1,
+    version=VERSION,
     description=DESCRIPTION,
-    #long_description=read('README.md'),
-    long_description='o teste',
+    long_description=read('README.md'),
+    #long_description='o teste',
     long_description_content_type='text/markdown',
     author=AUTHOR,
     author_email=AUTHOR_EMAIL,
