@@ -95,7 +95,7 @@ def find_package_data(
 
 
 PACKAGE = "libpythonpro"
-NAME = "libpythonpro_flavio"
+NAME = "libpythonproflavio"
 DESCRIPTION = "Módulo para exemplificar construção de projetos Python no curso PyTools"
 AUTHOR = "Flávio Borges"
 AUTHOR_EMAIL = "flyfmb@hotmail.com"
