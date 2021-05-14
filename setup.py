@@ -95,7 +95,7 @@ def find_package_data(
 
 
 PACKAGE = "libpythonpro"
-NAME = "libpythonproflavio"
+NAME = "olibpythonproflavio"
 DESCRIPTION = "Módulo para exemplificar construção de projetos Python no curso PyTools"
 AUTHOR = "Flávio Borges"
 AUTHOR_EMAIL = "flyfmb@hotmail.com"
@@ -104,9 +104,11 @@ VERSION = __import__(PACKAGE).__version__
 
 setup(
     name=NAME,
-    version=VERSION,
+    #version=VERSION,
+    version=0.1.1,
     description=DESCRIPTION,
-    long_description=read('README.md'),
+    #long_description=read('README.md'),
+    long_description='o teste',
     long_description_content_type='text/markdown',
     author=AUTHOR,
     author_email=AUTHOR_EMAIL,
