@@ -5,6 +5,7 @@ import sys
 from distutils.util import convert_path
 from fnmatch import fnmatchcase
 from setuptools import setup, find_packages
+from os import path
 
 
 def read(fname):
@@ -102,11 +103,22 @@ AUTHOR_EMAIL = "flyfmb@hotmail.com"
 URL = "https://github.com/FlavioFMBorges/libpythonpro"
 VERSION = __import__(PACKAGE).__version__
 
+this_directory = path.abspath(path.dirname(__file__))
+with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
+    long_description = f.read()
+"""
+directory_license = path.abspath(path.dirname(__file__))
+with open(path.join(directory_license, 'LICENSE'), encoding='utf-8') as lic:
+    long_license = lic.read()
+"""
+
+#3 linhas acima serverm para colocar o arquivo no pip em utf-8 não pode ser salvo em BOM
+
 setup(
     name=NAME,
     version=VERSION,
     description=DESCRIPTION,
-    long_description=read('README.md'),
+    long_description=long_description,
     #long_description='o teste',
     long_description_content_type='text/markdown',
     author=AUTHOR,
@@ -119,7 +131,7 @@ setup(
         "Development Status :: 2 - Pre-Alpha",
         "Environment :: Console",
         "Intended Audience :: Developers",
-        "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+        "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
         "Operating System :: OS Independent",
         "Programming Language :: Python",
         "Programming Language :: Python :: 3.9",
