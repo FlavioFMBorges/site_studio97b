@@ -6,7 +6,7 @@ Link do curso [Python Pro](https://www.python.pro.br/)
 [![Build Status](https://travis-ci.org/FlavioFMBorges/libpythonpro.svg?branch=main)](https://travis-ci.org/FlavioFMBorges/libpythonpro)
 [![codecov](https://codecov.io/gh/FlavioFMBorges/libpythonpro/branch/main/graph/badge.svg?token=LQJ6HVVO78)](https://codecov.io/gh/FlavioFMBorges/libpythonpro)
 
-Suportada versão 3 de Python
+Suportada versão 3 de Python 
 
 Para instalar:
 ```console
