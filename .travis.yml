@@ -8,4 +8,4 @@ script:
   - pytest libpythonpro --cov libpythonpro
 after_success:
   - codecov #após de construção com sucesso, chame a biblioteca
-            #codecov para mandar os relatórios para o codecov
+            #codecov para  mandar os relatórios para o codecov
