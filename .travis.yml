@@ -1,11 +1,8 @@
+dist: xenial
 language: python
 python:
   - 3.9.2
 install:
-  - pip install -q -r requirements-dev.txt codecov
+  - pip install -q -r requirements-dev.txt
 script:
   - flake8
-  - pytest libpythonpro --cov libpythonpro
-after_success:
-  - codecov #após de construção com sucesso, chame a biblioteca
-            #codecov para mandar os relatórios para o codecov
