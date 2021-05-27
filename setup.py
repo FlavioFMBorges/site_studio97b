@@ -112,14 +112,14 @@ with open(path.join(directory_license, 'LICENSE'), encoding='utf-8') as lic:
     long_license = lic.read()
 """
 
-#3 linhas acima serverm para colocar o arquivo no pip em utf-8 não pode ser salvo em BOM
+# 3 linhas acima serverm para colocar o arquivo no pip em utf-8 não pode ser salvo em BOM
 
 setup(
     name=NAME,
     version=VERSION,
     description=DESCRIPTION,
     long_description=long_description,
-    #long_description='o teste',
+    # long_description='o teste',
     long_description_content_type='text/markdown',
     author=AUTHOR,
     author_email=AUTHOR_EMAIL,
