@@ -7,3 +7,4 @@ class Enviador:
 
 class EmailInvalido(Exception):
     pass
+
