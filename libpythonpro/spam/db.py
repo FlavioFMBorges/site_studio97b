@@ -24,7 +24,7 @@ class Conexao:
 
     def __init__(self):
         # tempo de conexão com o servidor
-        sleep(10)  # passa o tempo em segundos
+        sleep(1)  # passa o tempo em segundos
 
     def gerar_sessao(self):
         return Sessao()
