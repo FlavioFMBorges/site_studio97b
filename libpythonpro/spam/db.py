@@ -1,3 +1,6 @@
+from time import sleep
+
+
 class Sessao:
     contador = 0
     usuarios = []
@@ -18,6 +21,11 @@ class Sessao:
 
 
 class Conexao:
+
+    def __init__(self):
+        # tempo de conexão com o servidor
+        sleep(10)  # passa o tempo em segundos
+
     def gerar_sessao(self):
         return Sessao()
 
