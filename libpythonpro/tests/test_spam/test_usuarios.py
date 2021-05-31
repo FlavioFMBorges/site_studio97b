@@ -8,7 +8,7 @@ from libpythonpro.spam.modelos import Usuario
 def conexao():
     # Setup
     conexao_obj = Conexao()
-    yield conexao_obj # função geradora
+    yield conexao_obj  # função geradora
     # Tear Down
     conexao_obj.fechar()
 
@@ -32,4 +32,3 @@ def test_listar_usuarios(sessao):
     for usuario in usuarios:
         sessao.salvar(usuario)
     assert usuarios == sessao.listar()
-
