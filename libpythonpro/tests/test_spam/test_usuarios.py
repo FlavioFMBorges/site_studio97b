@@ -4,7 +4,9 @@ from libpythonpro.spam.db import Conexao
 from libpythonpro.spam.modelos import Usuario
 
 
-@pytest.fixture
+# scope='session', executa a sessao apenas 1 vez
+# scope='module', executa a função apenas 1 vez
+@pytest.fixture(scope='session')
 def conexao():
     # Setup
     conexao_obj = Conexao()
