@@ -7,7 +7,7 @@ def test_criar_enviador_de_email():
     enviador = Enviador()
     assert enviador is not None
 
- 
+
 # decorator
 @pytest.mark.parametrize(
     'destinatario',
