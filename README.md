@@ -1,4 +1,4 @@
-Nesse curso é ensinado como contribuir com projetos de código aberto
+esse curso é ensinado como contribuir com projetos de código aberto
 
 Link do curso [Python Pro](https://www.python.pro.br/)
 
