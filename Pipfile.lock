@@ -33,7 +33,7 @@
         },
         "idna": {
             "hashes": [],
-            "version": "==3.6"
+            "version": "==3.10"
         },
         "requests": {
             "hashes": [
